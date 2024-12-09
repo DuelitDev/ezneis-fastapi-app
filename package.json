@@ -1,0 +1,27 @@
+{
+  "name": "ezneis-fastapi-app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "DuelitDev",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "luxon": "^3.5.0",
+    "next": "^15.0.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.4.2",
+    "@types/node": "22.10.1",
+    "@types/react": "19.0.1",
+    "typescript": "5.7.2"
+  }
+}

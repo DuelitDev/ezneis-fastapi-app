@@ -1,0 +1,44 @@
+.card {
+  min-width: 300px;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border: 0 solid #444;
+  border-radius: 12px;
+  box-sizing: border-box;
+
+  @media (prefers-color-scheme: light) {
+    background: linear-gradient(180deg, #FFFFFF 0, #FAFAFA 65%);
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 0 1px, rgba(0, 0, 0, 0.02) 0 4px 6px 0, #FAFAFA 0 0 0 6px inset;
+  }
+  @media (prefers-color-scheme: dark) {
+    background: linear-gradient(#242424, #121212 65%);
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 0 1px, rgba(0, 0, 0, 0.02) 0 4px 6px 0, #111111 0 0 0 6px inset;
+  }
+}
+
+.title_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.content_container {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0 0;
+}
+
+.content {
+  padding: 4px 0;
+  font-size: 18px;
+}
