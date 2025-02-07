@@ -1,1 +1,1 @@
-# ezneis-FastAPI-app
+# ezneis-fastapi-app

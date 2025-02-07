@@ -1,0 +1,29 @@
+name: ezneis_fastapi_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 3.0.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  equatable: ^2.0.7
+  http: ^1.2.2
+  google_fonts: ^6.2.1
+  card_swiper: ^3.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  uses-material-design: true

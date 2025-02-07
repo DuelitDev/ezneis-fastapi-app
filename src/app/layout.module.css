@@ -1,8 +1,0 @@
-.layout_content_container {
-  height: calc(100% - var(--version-height));
-  display: flex;
-}
-
-.layout_version_container {
-  height: var(--version-height);
-}
